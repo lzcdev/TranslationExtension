@@ -1,0 +1,32 @@
+{
+  "name": "Translate Extension",
+  "description": "Google translate extension, support baidu tanslate and google tanslate",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "translate.html",
+    "default_icon": "setup.png"
+  },
+  "Content-Security-Policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "https://fanyi.baidu.com/langdetect",
+    "https://fanyi.baidu.com/v2transapi",
+    "https://translate.google.cn/",
+    "https://translate.google.cn/translate_a/single",
+    "https://translate.google.com/",
+    "https://translate.google.com/translate_a/single",
+    "http://fanyi.youdao.com/translate_o"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  }
+
+}

@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+.container {
+  /* display: flex; */
+  padding: 10px;
+  width: 280px;
+  height: 160px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.translate_btn {
+  display: flex;
+  margin-top: 10px;
+}
+.input {
+  outline: none;
+  width: 160px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.btn {
+  height: 30px;
+  width: 60px;
+  margin-right: 10px;
+  padding: 0 5px 0 5px;
+  background-color: #26AB28;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.item {
+  background-color: #fff;
+  margin: 5px 0;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.url {
+  margin: 10px 0;
+}
+.link {
+  word-wrap:break-word;
+  color: #26AB28;
+}
+
